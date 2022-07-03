@@ -2,8 +2,12 @@
   color: $color-black;
 
   font-family: Raleway, cursive;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.19;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
 }
 
 .logo-accent {
@@ -11,5 +15,12 @@
 }
 
 .page-header__logo {
-  margin-right: 95px;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 95px;
+  }
 }
