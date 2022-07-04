@@ -1470,6 +1470,11 @@ img {
     margin-left: 20px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .agreement {
+    padding-left: 10px;
+  }
+}
 
 .agreement__title {
   position: relative;

@@ -160,6 +160,10 @@
   @media screen and (max-width: 480px) {
     margin-left: 20px;
   }
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 10px;
+  }
 }
 
 .agreement__title {
